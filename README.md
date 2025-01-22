@@ -8,7 +8,7 @@ We finetune the SDS-ranker on the subset of source data selected by our SDS meth
 - We use BERRI, a collection of retrieval datasets from various tasks, as source datasets. The official BERRI can be found at https://github.com/facebookresearch/tart?tab=readme-ov-file#dataset-berri.
 - Since the SDS-ranker belongs to the cross-encoder architecture, we use the TART-full training data of BERRI.
 - According to the instruction texts, we classify each instance into its original dataset.
-- 28 datasets are correctly classified, including AGNews, Altlex, CNN Daily Mail, etc. (see )
+- 28 datasets are correctly classified, including AGNews, Altlex, CNN Daily Mail, etc. (see https://drive.google.com/drive/folders/1x0XhCIH8tanoz9WORgDLnELpjZWVXBfg?usp=sharing)
 - MS MARCO dataset is removed because it was used in the pretraining of monoT5, the initialization of our model.
 
 ## Target Datasets
