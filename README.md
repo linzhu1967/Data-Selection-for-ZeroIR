@@ -1,5 +1,5 @@
 # Data-Selection-for-ZeroIR
-This is the official code for the SDS method for data selection in ZeroIR.
+This is the official code of the SDS method proposed for the data selection task in ZeroIR.
 
 ## SDS-ranker
 We finetune the SDS-ranker on the subset of source data selected by our SDS method. The SDS-ranker is built on the monoT5 large model (see https://huggingface.co/castorini/monot5-large-msmarco).
